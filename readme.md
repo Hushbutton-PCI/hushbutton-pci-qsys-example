@@ -20,7 +20,7 @@ Off 1-8
 * Trigger a channel to turn the LED's off.  
 * Indicates if the status of a channel's LED's are off.  
 
-Pressed  
+Pressed 1-8 
 * Indicates if channel's ring is pressed.  
 
 Red All On  
@@ -43,7 +43,7 @@ Not Managed
 
 ## Managed Mode  
 Managed mode enables the PCI to manage the state of the LED's.  
-When managed mode is on, pressing a ring will toggle that channel'S LED's between red and green.
+When managed mode is on, pressing a ring will toggle that channel's LED's between red and green.
 
 When managed mode is off, pressing the ring will have no effect on the LED's.
 For systems with a control system, managed mode is typically turned off.
