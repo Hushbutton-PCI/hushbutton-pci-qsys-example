@@ -1,28 +1,52 @@
+# Hushbutton PCI Q-SYS Example Program
 
+----
+##Getting Started
+Open the Scriptable Controls script by double clicking the Scriptable Controls block, then clicking the *S* button.  
 
-**Getting Started
-Open the Scriptable Controls script by double clicking the Scriptable Controls block, then clicking the "S" button.  
+Then change the *host* variable to the IP Address of your PCI board and *save* the script.  
 
-Then change the "host" variable to the IP Address of your PCI board and save.  
+----
+##Description Of The Block Pins
+Red 1-8  
+* Trigger a channel to turn the red LED on.  
+* Indicates the status of a channel's red LED.  
 
-**Description Of The Block Pins
+Green 1-8  
+* Trigger a channel to turn the green LED on.  
+* Indicates the status of a channel's green LED.  
 
-*Red 1-8
+Off 1-8  
+* Trigger a channel to turn the LED's off.  
+* Indicates if the status of a channel's LED's are off.  
 
-*Green 1-8
+Pressed  
+* Indicates if channel's ring is pressed.  
 
-*Off 1-8
+Red All On  
+* Trigger to turn all red LED's on.  
 
-*Pressed
+Green All On  
+* Trigger to turn all green LED's on.  
 
-*Red All On
+All Off  
+* Trigger to turn all LED's off.  
 
-*Green All On
+Poll All  
+* Trigger to turn poll the state of all LED's.  
 
-*All Off
+Managed  
+* Trigger to turn managed mode for all channels on.  
 
-*Poll All
+Not Managed  
+* Trigger to turn managed mode for all channels off.  
 
-*Managed
+##Managed Mode
+Managed mode enables the PCI to manage the state of the LED's.  
+When managed mode is on, pressing a ring will toggle that channel'S LED's between red and green.
 
-*Not Managed
+When managed mode is off, pressing the ring will have no effect on the LED's.
+For systems with a control system, managed mode is typically turned off.
+
+When a ring is pressed, the control system can use that as a trigger to toggle the mute status of a mic input.
+Feedback from the mic input can be used as a trigger to turn the red or green LED on.
