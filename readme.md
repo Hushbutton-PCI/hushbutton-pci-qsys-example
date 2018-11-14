@@ -7,7 +7,7 @@
 Open the Scriptable Controls script by double clicking the Scriptable Controls block, then clicking the *S* button.  
 
 Then change the *host* variable to the IP Address of your PCI board and *save* the script.  
-----
+
 ## Description Of The Block Pins
 Red 1-8  
 * Trigger a channel to turn the red LED on.  
