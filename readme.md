@@ -1,7 +1,12 @@
 # Hushbutton PCI Q-SYS Example Program
 
+## What's a Hushbutton
+[Read about Hushbutton here](http://www.hja.com/words/index.html)
+
 ----
 ## Getting Started
+[Download the Q-SYS Designer Software](https://www.qsc.com/resources/software-and-firmware/q-sys-designer-software/)  
+
 Open the Scriptable Controls script by double clicking the Scriptable Controls block, then clicking the *S* button.  
 
 Then change the *host* variable to the IP Address of your PCI board and *save* the script.  
