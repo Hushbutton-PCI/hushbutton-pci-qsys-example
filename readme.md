@@ -1,13 +1,13 @@
 # Hushbutton PCI Q-SYS Example Program
 
 ----
-##Getting Started
+## Getting Started
 Open the Scriptable Controls script by double clicking the Scriptable Controls block, then clicking the *S* button.  
 
 Then change the *host* variable to the IP Address of your PCI board and *save* the script.  
 
 ----
-##Description Of The Block Pins
+## Description Of The Block Pins
 Red 1-8  
 * Trigger a channel to turn the red LED on.  
 * Indicates the status of a channel's red LED.  
@@ -41,7 +41,7 @@ Managed
 Not Managed  
 * Trigger to turn managed mode for all channels off.  
 
-##Managed Mode
+## Managed Mode  
 Managed mode enables the PCI to manage the state of the LED's.  
 When managed mode is on, pressing a ring will toggle that channel'S LED's between red and green.
 
