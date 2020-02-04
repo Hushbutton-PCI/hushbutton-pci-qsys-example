@@ -1,6 +1,6 @@
 # Hushbutton PCI Q-SYS Example Program
 ## What's a Hushbutton?  
-[Read about Hushbutton here](http://www.hja.com/words/index.html)
+[Read about Hushbutton here](https://catchtechnologies.com/hushbutton/)
 ## Getting Started  
 [Download the Q-SYS Designer Software](https://www.qsc.com/resources/software-and-firmware/q-sys-designer-software/)  
 
